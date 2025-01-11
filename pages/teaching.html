@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Zhang</title>
+    <meta name="keywords" content="Mi, Zhang, Mi Zhang, mizhang, USC, University of Southern California,
+        OSU, The Ohio State University,
+        AIoT, Edge AI, Machine Learning Systems, Mobile Computing, Mobile Health" />
+    <meta name="description" content="" />
+
+    <link type="image/x-icon" href="https://www.osu.edu/assets/web/favicon/favicon.ico" rel="shortcut icon">
+
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="container">
+            <header class="header">
+                <div class="header-content">
+                    <a href="../index.html">
+                        <div class="header-left">
+                            Mi Zhang
+                        </div>
+                    </a>
+                    <div class="header-right">
+                        <img src="../imgs/headerOSULogo.svg" alt="" class="headerOSULogo">
+                    </div>
+                </div>
+            </header>
+    
+            <nav class="navbar">
+              <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./news.html">News</a></li>
+                <li><a href="./publications.html">Publications</a></li>
+                <li><a href="./service.html">Service</a></li>
+                <li><a href="./group.html">Group</a></li>
+                <li><a href="./teaching.html">Teaching</a></li>
+                <li><a href="./talks.html">Talks</a></li>
+                <li><a href="./media.html">Media</a></li>
+                <li><a href="https://sites.google.com/view/osu-aiot-seminar">OSU AIoT Seminar</a></li>
+              </ul>
+            </nav>
+
+        <div class="body_container">
+            <section id="teaching" class="section">
+                <div class="section_title">Teaching</div>
+                <div class="section_text">
+                  <div class="course-container">
+                    <div class="course-code">
+                        CSE 5469
+                    </div>
+                    <div class="course-content">
+                        <div class="course-title">
+                          Artificial Intelligence of Things (AIoT)
+                        </div>
+                        <div class="course-semester">
+                            Autumn 2022
+                        </div>
+                        <div class="course-description">
+                          This course combines artificial intelligence (AI) with Internet of Things (IoT) technologies to explore the cutting edge of smart systems. Students will learn to design and implement intelligent IoT solutions, covering topics such as edge computing, machine learning on embedded systems, sensor fusion, and real-time data analytics.
+                        </div>
+                    </div>
+                    <div class="course-image">
+                        <img src="../imgs/cse5469.png" alt="">
+                    </div>
+                  </div>
+
+                  <div class="course-container">
+                    <div class="course-code">
+                        CSE 3461
+                    </div>
+                    <div class="course-content">
+                        <div class="course-title">
+                            Computer Networking and Internet Technologies
+                        </div>
+                        <div class="course-semester">
+                            Spring 2024
+                        </div>
+                        <div class="course-description">
+                            This course explores the fundamentals of computer networks and modern internet technologies. Students will study network architectures, TCP/IP protocols, and internet applications. The course covers wireless communication systems, network security principles, and emerging networking technologies. Through practical assignments, students will gain hands-on experience with network programming and protocol implementation.
+                        </div>
+                    </div>
+                    <div class="course-image">
+                        <img src="../imgs/cse3461.jpg" alt="">
+                    </div>
+                </div>
+                </div>
+            </section>
+        </div>
+
+        <div class='footerBox'>
+            <div class='lineFooter'></div> 
+            <div class='footerContent'>
+              <div class='footerLeft'>
+                <div class='footerLogo'>
+                  <a href="https://www.osu.edu/">
+                    <img src="../imgs/osu-horiz-gray.svg" alt="" />
+                  </a>
+                </div>
+                <div class='footerAddr'>
+                  <div class='footerAddrTitle'>© 2025 Mi Zhang</div>
+                </div>
+              </div>
+      
+              <div class='footerMiddle'>
+                <div class='footerContactTitle'>
+                  Contact
+                </div>
+                <div class='footerContactContent'>
+                  Email: mizhang.1@osu.edu <br>
+                  Office: 495 Dreese Labs <br>
+                  2015 Neil Ave, Columbus, OH 43210
+                </div>
+              </div>
+      
+              <div class='footerRight'>
+                <div class='footerContactTitle'>
+                  Affiliations
+                </div>
+                <div class='footerContactContent'>
+                  <a href="https://cse.osu.edu/">Department of Computer Science and Engineering</a> <br />
+                  <a href="https://icdt.osu.edu/">Institute for Cybersecurity and Digital Trust</a> <br />
+                  <a href="https://tdai.osu.edu/">Translational Data Analytics Institute</a> <br />
+                  <a href="https://5g-oh.osu.edu/">5G and Broadband Connectivity Center</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </div>
+
+    <button id="backToTop" class="back-to-top">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+  </button>
+</body>
+
+<script>
+  const backToTopButton = document.getElementById('backToTop');
+  window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+          backToTopButton.classList.add('show');
+      } else {
+          backToTopButton.classList.remove('show');
+      }
+  });
+
+  backToTopButton.addEventListener('click', () => {
+      window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+      });
+  });
+</script>
