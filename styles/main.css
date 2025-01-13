@@ -848,12 +848,12 @@ ul li {
     
 
     .profile-image {
-        width: 180px;
+        width: 150px;
         height: auto;
     }
 
     .intro-screen {
-        height: calc(110vh);
+        height: calc(120vh);
         margin-top: 70px;
         display: flex;
         flex-direction: column;
